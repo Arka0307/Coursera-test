@@ -24,7 +24,7 @@ h1{
 
 .head{
     border: 1px solid black;
-    background-color:plum;
+    /*background-color:plum;*/
     float:right;
     width: 120px;
     height: 40px; 
@@ -41,6 +41,10 @@ h1{
     padding-left: 10px;
     padding-right: 10px;
 }
+#one{background-color:plum;}
+#two{background-color:brown; color:white;}
+#four{background-color:lightgoldenrodyellow;}
+
 @media(min-width:992px){.box{width:30%;}}
 @media(min-width:768px) and (max-width:992px){.box{width: 45%;} .container{margin-left: 40px;} #three{width:92%;}}
 
